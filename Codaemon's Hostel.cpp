@@ -18,6 +18,8 @@ int main() {
         b = b-1;
         
         ll ans = 0;
+        // Calculating the distances between Each corners of Hostel block and the meeting room block
+        // And choosing the maximum of them
         ans = max(ans, abs(0-c)+abs(0-d));
         ans = max(ans, abs(0-c)+abs(b-d));
         ans = max(ans, abs(l-c)+abs(0-d));
