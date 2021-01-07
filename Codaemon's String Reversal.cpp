@@ -3,18 +3,18 @@
 #include <vector>
 #include <iostream>
 #include <algorithm>
+#include <string.h>
 using namespace std;
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
     int n;
-    cin>>n;
-    char arr[n+1];
-    cin>>arr;
-    for(int i=n-1;i>=0;i--)
-    {
-        cout<<arr[i];
-    }
+    cin >> n;
+    
+    char s[n+1];
+    cin >> s;
+    
+    for(int i = n-1; i>=0; i--) {cout << s[i];}
     return 0;
 }
